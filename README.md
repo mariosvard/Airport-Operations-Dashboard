@@ -9,7 +9,7 @@ This dashboard has been implemented as a full stack PHP application that can be 
 
 ---
 
-# # Live Deployment
+#  Live Deployment
 
 🔗 [View Live Dashboard](https://airport-operations-dashboard.onrender.com/)
 
