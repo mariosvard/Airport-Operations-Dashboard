@@ -50,7 +50,8 @@ if (isset($_GET['api']) && $_GET['api'] === '1') {
     echo json_encode($rawData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
     exit;
 }
-
+// Encode the PHP dataset so it can safely be embedded inside JavaScript.
+// The JSON_HEX_* flags help prevent HTML/script injection problems.
 $embeddedJson = json_encode(
     $rawData,
     JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT
