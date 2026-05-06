@@ -13,7 +13,4 @@ This dashboard has been implemented as a full stack PHP application that can be 
 
 🔗 [View Live Dashboard](https://airport-operations-dashboard.onrender.com/)
 
-Direct URL:
 
-```text
-https://airport-operations-dashboard.onrender.com/
