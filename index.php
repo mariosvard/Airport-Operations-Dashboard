@@ -4,8 +4,12 @@
 // Run locally with: php -S localhost:8000
 // Then open: http://localhost:8000/index.php
 
+// Enables strict type checking in PHP for safer and more predictable code
 declare(strict_types=1);
 
+// Static dataset used by the dashboard.
+// Each array item represents one airport flight operation record.
+// The frontend charts and tables are created from this data.
 $rawData = [
     ['date' => '2026-03-01', 'airport' => 'ATH', 'city' => 'Athens', 'airline' => 'Aegean', 'flight_type' => 'Domestic', 'status' => 'On Time', 'passengers' => 168, 'flights' => 1],
     ['date' => '2026-03-01', 'airport' => 'SKG', 'city' => 'Thessaloniki', 'airline' => 'Ryanair', 'flight_type' => 'International', 'status' => 'Delayed', 'passengers' => 142, 'flights' => 1],
