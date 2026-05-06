@@ -1,8 +1,6 @@
 <?php
 // index.php
 // Modern single-file PHP + D3.js + dc.js + Crossfilter airport dashboard
-// Run locally with: php -S localhost:8000
-// Then open: http://localhost:8000/index.php
 
 // Enables strict type checking in PHP for safer and more predictable code
 declare(strict_types=1);
