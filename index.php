@@ -42,7 +42,9 @@ $rawData = [
     ['date' => '2026-03-15', 'airport' => 'SKG', 'city' => 'Thessaloniki', 'airline' => 'Sky Express', 'flight_type' => 'Domestic', 'status' => 'Cancelled', 'passengers' => 0, 'flights' => 1],
     ['date' => '2026-03-15', 'airport' => 'HER', 'city' => 'Heraklion', 'airline' => 'easyJet', 'flight_type' => 'International', 'status' => 'On Time', 'passengers' => 172, 'flights' => 1],
 ];
-
+// Simple API mode.
+// When the URL contains ?api=1, the page returns JSON instead of HTML.
+// Example: /index.php?api=1
 if (isset($_GET['api']) && $_GET['api'] === '1') {
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($rawData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
