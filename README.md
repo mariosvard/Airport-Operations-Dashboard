@@ -9,12 +9,11 @@ This dashboard has been implemented as a full stack PHP application that can be 
 
 ---
 
-# Project Goals
+# # Live Deployment
 
-The key goals for the project were as follows:
+🔗 [View Live Dashboard](https://airport-operations-dashboard.onrender.com/)
 
-- Develop an adaptive airport operations dashboard.
-- Develop an intuitive user interface design.
-- Acquire skills in backend programming with PHP.
-- Merge the frontend and backend elements.
-- Deploy a functional PHP application online-Learn about containerization using Docker and GitHub.
+Direct URL:
+
+```text
+https://airport-operations-dashboard.onrender.com/
