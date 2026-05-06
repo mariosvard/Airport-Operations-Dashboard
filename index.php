@@ -63,9 +63,9 @@ $embeddedJson = json_encode(
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airport Operations Dashboard</title>
-
+    <!-- dc.js stylesheet for default chart styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/style/dc.min.css" />
-
+    /* Global design tokens used throughout the dashboard */
     <style>
         :root {
             --bg: #edf2f9;
